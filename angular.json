@@ -31,9 +31,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/codemirror/lib/codemirror.css",
+              "codemirror/mode/javascript/javascript",
+              "codemirror/mode/htmlmixed/htmlmixed",
+              "codemirror/mode/css/css",
+              "codemirror/mode/sql/sql",
+              "codemirror/mode/markdown/markdown"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/vkbeautify.js"
+            ]
           },
           "configurations": {
             "production": {

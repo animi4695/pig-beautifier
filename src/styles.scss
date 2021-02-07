@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+.CodeMirror {
+    position:absolute !important;
+    top:0 !important;
+    bottom:0 !important;
+    left:0 !important;
+    right:0 !important;
+    height:100% !important;
+}
+
+.CodeMirror div.CodeMirror-cursor {
+    border-left: 1px solid #08d !important;
+}
+
+.CodeMirror-selected {background:#4d5358 !important;}
+
+.CodeMirror.cm-s-default {
+    background-color: #2e3235 !important;
+    color: #fff !important;
+}
+
+.CodeMirror.cm-s-default .CodeMirror-gutters {
+    background-color: #2e3235 !important;
+    border-right: 1px #2e3235 !important;
+}
